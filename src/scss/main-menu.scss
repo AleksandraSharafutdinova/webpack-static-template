@@ -1,0 +1,137 @@
+$white-back: #FFFFFF;
+$blue-light: #D9FFF5;
+$white: #EAEAEA;
+$green: #41F6D7;
+$forestgreen: #B8FFEC;
+$dark-gray: #7E7E82;
+$white-border: #F8F8F8;
+$green-border: #228b22;
+$black: #1B1C21;
+$gray: #B5B6BC;
+$swiper-white: #DDDDDD;
+
+.head {
+  height: 56px;
+  margin-top: 15px;
+  border-top: 1px solid $blue-light;
+  background: linear-gradient(270deg, $white-border 0%, $white-back 98.61%);
+}
+
+.title1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $dark-gray;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  margin-left: 24px;
+}
+
+.main-menu {
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: 154px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    min-width: 0;
+
+    @media (max-width: 768px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__items {
+    list-style: none;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    width: 240px;
+    height: 72px;
+    background-color: $white-back;
+    border: 1px solid $white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  &__items:hover {
+    border: 1px solid $green-border;
+  }
+}
+
+.mobile-buttons {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url("../img/go.svg");
+  background-repeat: no-repeat;
+  background-color: white;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.menu-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.hide {
+  font-family: TT Lakes, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: $black;
+  border: none;
+  background-color: transparent;
+  margin-left: 27px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    background-image: url('../img/expand2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 24px;
+    float: left;
+  }
+
+  &--rotate::before {
+    transform: rotate(180deg);
+  }
+
+  &:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+}
+
+.swiper-pagination {
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  &-bullet {
+    background: $swiper-white;
+
+    &-active {
+      background-color: $gray;
+    }
+  }
+}

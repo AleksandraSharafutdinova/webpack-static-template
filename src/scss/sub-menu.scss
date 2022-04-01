@@ -1,0 +1,122 @@
+$white-back: #FFFFFF;
+$blue-light: #D9FFF5;
+$white: #EAEAEA;
+$green: #41F6D7;
+$forestgreen: #B8FFEC;
+$dark-gray: #7E7E82;
+$white-border: #F8F8F8;
+$green-border: #228b22;
+$black: #1B1C21;
+$gray: #B5B6BC;
+$swiper-white: #DDDDDD;
+
+.head {
+  height: 56px;
+  margin-top: 15px;
+  border-top: 1px solid $blue-light;
+  background: linear-gradient(270deg, $white-border 0%, $white-back 98.61%);
+}
+
+.title1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $dark-gray;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  margin-left: 24px;
+}
+
+.sub-menu {
+  overflow: hidden;
+
+  &--hidden {
+    @media (min-width: 768px) {
+      height: 200px
+    }
+  }
+
+  &__list {
+    display: flex;
+
+    @media (min-width: 768px) {
+      flex-wrap: wrap;;
+    }
+  }
+
+  &__hide {
+    font-family: TT Lakes, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: $black;
+    border: none;
+    background-color: transparent;
+    margin-left: 27px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    &--rotate::before {
+      transform: rotate(180deg);
+    }
+
+    &:hover {
+      text-decoration: underline;
+      transform: scale(1.1);
+    }
+  }
+
+  &__items {
+    list-style: none;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  &-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $white-back;
+    border: 1px solid $white;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 160px;
+    width: 224px;
+
+    &:hover {
+      border: 1px solid $green-border;
+    }
+  }
+
+  &__mobile-buttons {
+    align-self: flex-end;
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  &__hide::before {
+    content: "";
+    display: block;
+    background-image: url('../img/expand2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 24px;
+    float: left;
+  }
+
+  &__text {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  }
+
+
+.main-menu--hidden {
+  height: 190px
+}

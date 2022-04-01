@@ -1,0 +1,139 @@
+$dark-blue: #0E185033;
+$violet: #454F7E;
+$white: #EAEAEA;
+$green: #41F6D7;
+$gray: #B5B6BC;
+$dark-gray: #7E7E82;
+$pink: #FF3E79;
+
+.feedback {
+  font-family: "TT Lakes", sans-serif;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  max-width: 320px;
+  height: 100%;
+  max-height: 900px;
+  overflow: visible;
+  box-shadow: 16px 0 52px 0 $dark-blue, -2px 0 4px 0 $violet;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  &__button {
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url("../img/close.svg");
+    @media (min-width: 1120px) {
+      position: absolute;
+      margin-top: -450px;
+      margin-left: -64px;
+      margin-bottom: 24px;
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      background-image: url("../img/close.svg");
+    }
+  }
+  &__button:hover {
+    transform: scale(1.1);
+  }
+  &__title {
+    padding-left: 16px;
+    font-family: "TT Lakes Bold", sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+  &__title:before {
+    content: "";
+    width: 4px;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    background-color: $green;
+    position: absolute ;
+    left: 0;
+  }
+  &__form {
+    padding: 0 16px;
+  }
+  &__input {
+    //width: 100%;
+    margin-bottom: 16px;
+    padding: 12px 12px 16px;
+    border: 1px solid $white;
+    border-radius: 8px;
+    color: $gray;
+    font-family: TTLakes-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__message-input {
+    //width: 100%;
+    margin-bottom: 16px;
+    padding: 12px 12px 16px;
+    border: 1px solid $white;
+    border-radius: 8px;
+    color: $gray;
+    font-family: TTLakes-Medium, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    resize: none;
+  }
+  &__agreement {
+    font-family: TTLakes-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7E7E82;
+  }
+  &-link {
+    color: $pink;
+    text-decoration: none;
+  }
+  &-link:hover {
+    text-decoration: underline;
+  }
+  &__submit-button {
+    background: url("../img/Group 11.svg");
+    width: 136px;
+    height: 32px;
+    margin-top: 19px;
+    border: none;
+    cursor: pointer;
+    margin-left: 148px;
+  }
+  &__submit-button:hover {
+    transform: scale(1.1);
+  }
+  &--hidden {
+    visibility: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(320px);
+    transition: all 600ms ease-in;
+  }
+  &__popup {
+    display: block;
+    visibility: visible;
+    transform: translateX(0);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    height: 100%;
+    transition: all 600ms ease-in;
+  }
+}

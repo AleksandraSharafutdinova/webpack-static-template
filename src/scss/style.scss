@@ -1,17 +1,45 @@
-$bgColor: #24292e;
-$text: #fff;
+@import 'feedback';
+@import "price-list";
+@import 'main-menu';
+@import 'mobile';
+@import 'page-layout';
+@import 'price-list';
+@import 'reserve-call';
+@import 'sub-menu';
+@import 'footer';
+@import 'swiper-bundle.min.css';
 
 @font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
+  font-family: "TT Lakes";
+  font-style: normal;
+  src: url("../fonts/TTLakes-Regular.woff");
+}
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  font-style: normal;
+  src: url("../fonts/TTLakes-Medium.woff");
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  font-style: normal;
+  src: url("../fonts/TTLakes-Bold.woff");
 }
 
 body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+  font-family: "TT Lakes", sans-serif;
 }
+
+.blur {
+  background-color: #ffffff;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+
+

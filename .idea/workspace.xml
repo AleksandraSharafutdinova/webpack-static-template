@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2da15dd-b2ba-485b-a23c-a5b787b6bfd3" name="Changes" comment="" />
+    <list default="true" id="e2da15dd-b2ba-485b-a23c-a5b787b6bfd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/TTLakes-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group 10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group 11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Picture Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Rectangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/_MG_3223 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/acer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bosch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/checkstatus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/divider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/expand2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/go.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/highlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/lenovo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/repair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sony.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sumsung.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/viewsonic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page-layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/price-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/reserve-call.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/sub-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/swiper-bundle.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webpack-static-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webpack-static-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/webpack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +73,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Александра\Desktop\final\webpack-static-template\src\js" />
+      <recent name="C:\Users\Александра\Desktop\final\webpack-static-template\src\scss" />
+      <recent name="C:\Users\Александра\Desktop\final\webpack-static-template\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Александра\Desktop\final\webpack-static-template\src\fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,10 +97,32 @@
       <option name="presentableId" value="Default" />
       <updated>1648723034754</updated>
       <workItem from="1648723038351" duration="4593000" />
+      <workItem from="1648728136829" duration="101000" />
+      <workItem from="1648728241887" duration="13000" />
+      <workItem from="1648730146304" duration="843000" />
+      <workItem from="1648731065849" duration="592000" />
+      <workItem from="1648731683789" duration="21601000" />
+      <workItem from="1648816691574" duration="6744000" />
+      <workItem from="1648823578023" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

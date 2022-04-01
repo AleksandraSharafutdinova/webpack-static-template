@@ -1,0 +1,297 @@
+$green: #41F6D7;
+$forestgreen: #B8FFEC;
+$dark-gray: #7E7E82;
+$white-border: #F8F8F8;
+$green-border: #228b22;
+$black: #1B1C21;
+$gray: #B5B6BC;
+$swiper-white: #DDDDDD;
+$white-back: #FFFFFF;
+$blue-light: #D9FFF5;
+$white: white;
+
+.head {
+  height: 56px;
+  margin-top: 15px;
+  border-top: 1px solid $blue-light;
+  background: linear-gradient(270deg, $white-border 0%, $white-back 98.61%);
+}
+
+.title1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $dark-gray;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  margin-left: 24px;
+}
+
+.price-list {
+  &__swiper-button {
+    @media (min-width: 768px) {
+      background: url("../img/Group 10.svg");
+      width: 119px;
+      height: 32px;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    //&:hover {
+    //  @media (min-width: 768px) {
+    //    transform: scale(1.1);
+    //  }
+    //}
+  }
+
+  &__text-price {
+    @media (min-width: 768px) {
+      flex-basis: 15%;
+    }
+  }
+
+  &__wrap {
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      flex-basis: 35%;
+    }
+  }
+
+  &__swiper-container {
+    @media (max-width: 768px) {
+      overflow: hidden;
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__swiper-wrapper {
+    @media (max-width: 768px) {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      transition-property: transform;
+      box-sizing: content-box;
+    }
+
+    @media (min-width: 768px) {
+      width: 1056px;
+      height: 324px;
+      margin-left: 24px;
+      margin-top: 62px;
+      margin-right: 24px;
+    }
+  }
+
+  &__swiper-slide {
+    &:first-child:before {
+      @media (min-width: 768px) {
+        color: $dark-gray;
+        content: "Ремонтные работы";
+        display: block;
+        position: absolute;
+        margin-top: -100px;
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: $white;
+      margin-left: 24px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      width: 260px;
+      border: 1px solid $white;
+      border-radius: 6px;
+
+      &:hover {
+        border: 1px solid $black;
+      }
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 62px;
+      border: 1px solid $white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+  &__swiper-slide:hover {
+    @media (min-width: 768px) {
+      border: 1px solid $black;
+    }
+  }
+
+  &__text {
+    @media (max-width: 768px) {
+      font-family: TTLakes, sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      margin: 16px 16px 16px 16px;
+      align-self: flex-start;
+
+      &-description:before {
+        color: $dark-gray;
+        content: "Ремонтные услуги";
+        display: block;
+        font-size: 14px;
+      }
+
+      &-price:before {
+        color: $dark-gray;
+        content: "Цена";
+        display: block;
+        font-size: 14px;
+      }
+
+      &-duration:before {
+        color: $dark-gray;
+        content: "Срок";
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__text {
+    @media (min-width: 768px) {
+      margin: 0;
+      font-size: 16px;
+      font-family: "TT Lakes", sans-serif
+    }
+
+    &-description {
+      @media (min-width: 768px) {
+        flex-basis: 50%;
+      }
+    }
+  }
+
+  &__swiper-button {
+      @media (max-width: 768px) {
+        background: url("../img/Group 10.svg");
+        width: 119px;
+        height: 32px;
+        border: none;
+        cursor: pointer;
+        margin-left: 24px;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  //&:hover {
+  //    @media (max-width: 768px) {
+  //      transform: scale(1.1);
+  //    }
+  //  }
+
+  &__info--text {
+    @media (max-width: 768px) {
+      font-family: TTLakes, sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 24px;
+    }
+  }
+  &__info--get {
+    @media (max-width: 768px) {
+      display: block;
+      font-family: TTLakes-Medium, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      color: $black;
+      text-decoration: none;
+      margin-left: 24px;
+      margin-right: 16px;
+      padding-bottom: 20px;
+    }
+
+    &:after {
+      display: inline-block;
+      background-image: url('../img/more.svg');
+      content: "";
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 24px;
+      height: 12px;
+    }
+  }
+
+  &__wrap {
+    @media (max-width: 768px) {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      align-items: center;
+    }
+  }
+}
+
+.price-list__swiper-slide:first-child .price-list__text-price::before {
+  @media (min-width: 768px) {
+    color: $dark-gray;
+    content: "Цена";
+    display: block;
+    position: absolute;
+    margin-top: -47px;
+    font-size: 14px;
+  }
+}
+.price-list__swiper-slide:first-child .price-list__text-duration::before {
+  @media (min-width: 768px) {
+    color: $dark-gray;
+    content: "Срок";
+    display: block;
+    position: absolute;
+    margin-top: -47px;
+    font-size: 14px;
+  }
+}
+
+.price-list {
+  &__info {
+    @media (min-width: 768px) {
+      padding-left: 10px;
+    }
+  }
+  &__info--text {
+    @media (min-width: 768px) {
+      width: 421px;
+    }
+  }
+  &__info--get {
+    @media (min-width: 768px) {
+      color: $black;
+      text-decoration: none;
+      padding-bottom: 15px;
+    }
+    &:after {
+      @media (min-width: 768px) {
+        display: inline-block;
+        background-image: url('../img/more.svg');
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 12px;
+      }
+    }
+  }
+}

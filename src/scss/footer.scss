@@ -1,0 +1,57 @@
+$green: #41F6D7;
+$forestgreen: #B8FFEC;
+$dark-gray: #7E7E82;
+$white-border: #F8F8F8;
+$green-border: #228b22;
+$black: #1B1C21;
+$gray: #B5B6BC;
+$swiper-white: #DDDDDD;
+$white-back: #FFFFFF;
+$blue-light: #D9FFF5;
+$white: #EAEAEA;
+
+.footer {
+  background-color: $white-border;
+  border-top: 1px solid $blue-light;
+
+  &__copyright {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid $blue-light;
+    padding: 16px 4px 0;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 32px 24px 13px;
+      align-items: baseline;
+    }
+  }
+  &__text {
+    text-align: center;
+    font-family: TTLakes-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: $dark-gray;
+    margin-bottom: 12px;
+  }
+  &__text--copyright {
+    @media (min-width: 768px) {
+      text-align: start;
+      flex-basis: 33%;
+    }
+  }
+  &__text--offerta {
+    @media (min-width: 768px) {
+      text-align: right;
+      flex-basis: 33%;
+    }
+  }
+  &__text--politicsonf {
+    @media (min-width: 768px) {
+      flex-basis: 33%;
+    }
+  }
+}
